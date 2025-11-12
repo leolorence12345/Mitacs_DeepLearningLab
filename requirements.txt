@@ -1,0 +1,24 @@
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+
+# Machine Learning / Computer Vision
+torch>=1.8.0
+torchvision>=0.9.0
+ultralytics>=8.0.0  # For YOLOv5/YOLOv8
+
+# Image processing
+Pillow>=8.0.0
+
+# Data handling
+pandas>=1.2.0
+
+# Jupyter (for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For advanced Blender scripting
+# Note: Blender comes with its own Python environment
+# These may need to be installed in Blender's Python if using external scripts
+

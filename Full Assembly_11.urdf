@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Full Assembly_11">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-2.03644051389728E-05 -1.70315056341025E-05 0.000136336844893935"
+        rpy="0 0 0" />
+      <mass
+        value="4.68947548489761" />
+      <inertia
+        ixx="0.4304749169069"
+        ixy="-9.42129573311371E-06"
+        ixz="-1.2333114194247E-06"
+        iyy="0.430484984009646"
+        iyz="4.52327266611692E-07"
+        izz="0.592548760527116" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="prop_1_link">
+    <inertial>
+      <origin
+        xyz="1.57374113740616E-14 -3.4128495863467E-08 6.96109836439973E-14"
+        rpy="0 0 0" />
+      <mass
+        value="0.0279209337566854" />
+      <inertia
+        ixx="0.000201162216007131"
+        ixy="1.78654982765461E-17"
+        ixz="-3.54794010293451E-05"
+        iyy="0.00020994851785407"
+        iyz="-1.3702282094142E-17"
+        izz="9.10135654872958E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_1_joint"
+    type="continuous">
+    <origin
+      xyz="0.181349999999999 -0.314107413952614 0"
+      rpy="-1.5707963267949 0 0.691255474655158" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_1_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="prop_2_link">
+    <inertial>
+      <origin
+        xyz="-1.03667074924374E-14 1.6098119565641E-13 5.11091169386191E-13"
+        rpy="0 0 0" />
+      <mass
+        value="0.0279204568454635" />
+      <inertia
+        ixx="0.000202041619408997"
+        ixy="-1.7104733373791E-17"
+        ixz="-3.37223454376263E-05"
+        iyy="0.000209943475942696"
+        iyz="3.16600463547468E-18"
+        izz="8.21690270907977E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_2_joint"
+    type="continuous">
+    <origin
+      xyz="0.362699999999998 0 0"
+      rpy="1.5707963267949 0 -1.73577621414184" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_2_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="prop_3_link">
+    <inertial>
+      <origin
+        xyz="-3.90520948911899E-13 -3.26235117743978E-08 7.50066675436756E-13"
+        rpy="0 0 0" />
+      <mass
+        value="0.027920934580267" />
+      <inertia
+        ixx="0.000201383717076128"
+        ixy="-1.20991795268322E-17"
+        ixz="-3.50547223809467E-05"
+        iyy="0.000209948517982261"
+        iyz="-1.21999071384312E-16"
+        izz="8.87985560677225E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_3_joint"
+    type="continuous">
+    <origin
+      xyz="0.181349999999999 0.314107413952614 0"
+      rpy="1.5707963267949 0 2.42964177354604" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_3_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="prop_4_link">
+    <inertial>
+      <origin
+        xyz="-6.08110783950622E-13 3.2626149943752E-08 1.35269573320329E-12"
+        rpy="0 0 0" />
+      <mass
+        value="0.0279209345802532" />
+      <inertia
+        ixx="0.000200179018418034"
+        ixy="-1.91700240467463E-17"
+        ixz="-3.725763124776E-05"
+        iyy="0.00020994851798265"
+        iyz="-1.38805216067074E-16"
+        izz="1.00845542652547E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_4_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_4_joint"
+    type="continuous">
+    <origin
+      xyz="-0.18135 0.314107413952613 0"
+      rpy="1.5707963267949 0 -2.78817405638384" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_4_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="prop_5_link">
+    <inertial>
+      <origin
+        xyz="9.81020820134404E-14 -1.8812641785238E-08 -8.04911692853238E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0279204664553124" />
+      <inertia
+        ixx="0.000200032441640829"
+        ixy="3.463005047159E-18"
+        ixz="-3.75010706246231E-05"
+        iyy="0.000209943793870956"
+        iyz="2.44775429855879E-17"
+        izz="1.02263984418037E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_5_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_5_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_5_joint"
+    type="continuous">
+    <origin
+      xyz="-0.362699999999998 0 0"
+      rpy="1.5707963267949 0 1.38857142747957" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_5_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="prop_6_link">
+    <inertial>
+      <origin
+        xyz="9.334200079536E-14 -1.45331900228988E-08 -1.88316029436919E-12"
+        rpy="0 0 0" />
+      <mass
+        value="0.027920923723242" />
+      <inertia
+        ixx="0.000198410642199305"
+        ixy="-7.19915320863712E-18"
+        ixz="-4.00962993359658E-05"
+        iyy="0.000209948562943958"
+        iyz="1.05356758386117E-16"
+        izz="1.18529751746681E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_6_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.294117647058824 0.294117647058824 0.294117647058824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/prop_6_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="prop_6_joint"
+    type="continuous">
+    <origin
+      xyz="-0.181350000000001 -0.314107413952613 0"
+      rpy="1.5707963267949 0 2.43358089892909" />
+    <parent
+      link="base_link" />
+    <child
+      link="prop_6_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="arm_link_1">
+    <inertial>
+      <origin
+        xyz="-0.000456575742304703 0.0277931805795906 -0.000281474945327051"
+        rpy="0 0 0" />
+      <mass
+        value="0.0466133022968279" />
+      <inertia
+        ixx="1.11520593554095E-05"
+        ixy="-1.6950622381894E-08"
+        ixz="-8.33859276203391E-07"
+        iyy="7.48803299231646E-06"
+        iyz="-1.04493439674618E-08"
+        izz="1.1990589649598E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_joint_1"
+    type="revolute">
+    <origin
+      xyz="0.00640042621662216 -0.0101611186614582 -0.05080000000001"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="arm_link_1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="arm_link_2">
+    <inertial>
+      <origin
+        xyz="-0.00682377323321779 0.0238178343927864 0.0977003720873011"
+        rpy="0 0 0" />
+      <mass
+        value="0.0881360340957362" />
+      <inertia
+        ixx="2.33013648518121E-05"
+        ixy="-1.44048932570348E-08"
+        ixz="1.58529173562307E-06"
+        iyy="2.80386846811998E-05"
+        iyz="4.01526010926617E-09"
+        izz="2.12429210052187E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_joint_2"
+    type="revolute">
+    <origin
+      xyz="0.0200041034262614 0.0406999999999891 0.0123323090340743"
+      rpy="-1.5707963267949 1.01834072951641 0" />
+    <parent
+      link="arm_link_1" />
+    <child
+      link="arm_link_2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="arm_link_3">
+    <inertial>
+      <origin
+        xyz="0.0821956347623891 0.0258055149947611 -0.0328108898671948"
+        rpy="0 0 0" />
+      <mass
+        value="0.0841264815422109" />
+      <inertia
+        ixx="1.71202991564521E-05"
+        ixy="1.54770019874498E-08"
+        ixz="3.42747828079747E-06"
+        iyy="2.3071594296388E-05"
+        iyz="-2.21769298719891E-09"
+        izz="2.20091188886071E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_joint_3"
+    type="revolute">
+    <origin
+      xyz="0.00152806093150696 -0.00199999999999996 0.130221599705231"
+      rpy="0 0 0" />
+    <parent
+      link="arm_link_2" />
+    <child
+      link="arm_link_3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="arm_link_4">
+    <inertial>
+      <origin
+        xyz="0.0569030221334287 0.0254779868307 0.0265558659232681"
+        rpy="0 0 0" />
+      <mass
+        value="0.153358748079256" />
+      <inertia
+        ixx="4.51827280136669E-05"
+        ixy="-8.96090946442593E-08"
+        ixz="3.31231523781117E-06"
+        iyy="5.23814317420561E-05"
+        iyz="2.28451251155364E-07"
+        izz="3.96909902932138E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Full Assembly_11/meshes/arm_link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_joint_4"
+    type="revolute">
+    <origin
+      xyz="0.11499 0 -0.046408"
+      rpy="0 0 0" />
+    <parent
+      link="arm_link_3" />
+    <child
+      link="arm_link_4" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

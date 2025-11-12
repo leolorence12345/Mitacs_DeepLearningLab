@@ -1,0 +1,285 @@
+# Python# Python
+
+__pycache__/__pycache__/
+
+*.py[cod]*.py[cod]
+
+*$py.class*$py.class
+
+*.so*.so
+
+.Python.Python
+
+build/build/
+
+develop-eggs/develop-eggs/
+
+dist/dist/
+
+downloads/downloads/
+
+eggs/eggs/
+
+.eggs/.eggs/
+
+lib/lib/
+
+lib64/lib64/
+
+parts/parts/
+
+sdist/sdist/
+
+var/var/
+
+wheels/wheels/
+
+*.egg-info/*.egg-info/
+
+.installed.cfg.installed.cfg
+
+*.egg*.egg
+
+
+
+# Blender - EXCLUDE ALL (files are too large)# Blender - EXCLUDE ALL (files are too large)
+
+*.blend*.blend
+
+*.blend1*.blend1
+
+*.blend2*.blend2
+
+~$*.xlsx~$*.xlsx
+
+~$*.docx~$*.docx
+
+
+
+# Large Jupyter Notebooks# Jupyter Notebook
+
+Custom_Object_Detection_using_YOLOv5.ipynb.ipynb_checkpoints
+
+combine.ipynb*.ipynb_checkpoints/
+
+spilt.ipynb# Keep smaller notebooks, exclude large ones
+
+Untitled-1.ipynbCustom_Object_Detection_using_YOLOv5.ipynb
+
+.ipynb_checkpoints/combine.ipynb
+
+*.ipynb_checkpoints/spilt.ipynb
+
+Untitled-1.ipynb
+
+# PyTorch / Machine Learning models (large files)
+
+*.pt# PyTorch / Machine Learning
+
+*.pth*.pt
+
+*.ckpt*.pth
+
+*.h5*.ckpt
+
+*.hdf5*.h5
+
+segment.pt*.hdf5
+
+best.ptsegment.pt
+
+best_2.ptbest.pt
+
+best_2.pt
+
+# IDE
+
+.vscode/# IDE
+
+.idea/.vscode/
+
+*.swp.idea/
+
+*.swo*.swp
+
+*~*.swo
+
+*~
+
+# OS
+
+.DS_Store# OS
+
+.DS_Store?.DS_Store
+
+._*.DS_Store?
+
+.Spotlight-V100._*
+
+.Trashes.Spotlight-V100
+
+ehthumbs.db.Trashes
+
+Thumbs.dbehthumbs.db
+
+desktop.iniThumbs.db
+
+desktop.ini
+
+# Large output folders
+
+runs/# Project specific - large output folders
+
+output_folder*/runs/
+
+force/output_folder*/output_folder*/
+
+force/output_folder_*/force/output_folder*/
+
+force/combine/force/output_folder_*/
+
+force/videos/force/combine/
+
+output/force/videos/
+
+output_images/output/
+
+temp/output_images/
+
+mitacs_blender/output/temp/
+
+mitacs_blender - Copy/textures/
+
+UAM CAD URDF DEMO/assets/
+
+mitacs_blender/output/
+
+# Large media filesmitacs_blender - Copy/
+
+*.mp4UAM CAD URDF DEMO/
+
+*.avi
+
+*.mkv# Large media files - EXCLUDE
+
+*.mov*.mp4
+
+*.wmv*.avi
+
+*.mkv
+
+# Large image files (EXR, HDR)*.mov
+
+*.exr*.wmv
+
+*.hdr*.exr
+
+*.hdr
+
+# CAD and 3D model files
+
+*.step# Images - KEEP (for research and documentation)
+
+*.STEP# Remove .png and .jpg from exclusions so they are tracked
+
+*.SLDASM
+
+*.SLDPRT# Logs
+
+*.stl*.log
+
+*.STLlogs/
+
+
+
+# Large archive files# Environment
+
+*.zip.env
+
+.venv
+
+# Assets (large Blender materials and models)env/
+
+assets/materials/*/venv/
+
+assets/models/*/ENV/
+
+textures/env.bak/
+
+venv.bak/
+
+# Documentation assets
+
+Documentation/assets/# Server files
+
+server
+
+# Environment variablesserver.py
+
+.env
+
+.venv# Temporary files
+
+env/*.tmp
+
+venv/*.temp
+
+ENV/*.bak
+
+env.bak/*.backup
+
+venv.bak/
+
+# Documentation build
+
+# Temporary filesdocs/_build/
+
+*.tmpdocs/.doctrees/
+
+*.temp
+
+*.bak# Blender assets (large files)
+
+*.backupassets/materials/*/
+
+*.logassets/models/*/
+
+logs/
+
+# Calibration images (can be large)
+
+# Server specificcalibration/*.png
+
+server!calibration/calib.png
+
+server.py!calibration/caliResult*.png
+
+
+# STL files (can be large)
+*.stl
+*.STL
+
+# CAD files (can be very large)
+*.step
+*.STEP
+*.SLDASM
+*.SLDPRT
+
+# HDR/EXR image files (can be large)
+*.hdr
+*.HDR
+*.exr
+*.EXR
+
+# ZIP files
+*.zip
+
+# URDF demo files
+UAM CAD URDF DEMO/
+
+# Documentation assets (large Blender files)
+Documentation/assets/
+
+# Excel temp files
+~$*.xlsx
+
