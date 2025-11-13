@@ -2,9 +2,9 @@
 
 A comprehensive Blender-based robotics visualization and computer vision project for continuum/tendon robot arms, featuring 3D rendering, object detection, and camera calibration capabilities.
 
-![Robot Visualization](side_and _tendons.png)
+![Project Results](results.png)
 
-## 🎯 What This Project Does
+## What This Project Does
 
 This repository contains tools and scripts for:
 - **Visualizing continuum/tendon robot arms** in 3D using Blender
@@ -13,7 +13,7 @@ This repository contains tools and scripts for:
 - **Rendering robot poses** from multiple camera angles
 - **Working with URDF robot models** in Blender
 
-## 📋 Quick Start
+## Quick Start
 
 1. **Clone this repository**
    ```bash
@@ -35,30 +35,30 @@ See the [Installation](#installation) and [Usage](#usage) sections below for det
 
 ## Features
 
-### 🎨 Blender Visualization
+### Blender Visualization
 - Automated generation of robot backbone and tendon structures
 - Multi-camera rendering (front view, side view)
 - Disk placement along the backbone
 - Material and lighting configuration
 - Animation support for robot poses
 
-### 🤖 Object Detection
+### Object Detection
 - Custom YOLOv5 model training
 - Dataset preparation and annotation tools
 - Inference pipeline for robot component detection
 - Bounding box visualization and label generation
 
-### 📷 Camera Calibration
+### Camera Calibration
 - Chessboard-based camera calibration
 - Stereo camera calibration support
 - Calibration result visualization
 
-### 🔧 URDF Support
+### URDF Support
 - Import robot models from URDF files
 - Visualize robot assemblies in Blender
 - Animation and pose manipulation
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mitacs_blender/
@@ -100,7 +100,7 @@ cd yolov5
 pip install -r requirements.txt
 ```
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - **Blender 2.8+** - Download from [blender.org](https://www.blender.org/)
@@ -125,7 +125,7 @@ pip install -r requirements.txt
    - For external scripts, you may need to install packages in Blender's Python
    - Or use Blender's bundled Python which includes many packages
 
-## 🚀 Usage
+## Usage
 
 ### Rendering Robot Visualizations
 
@@ -177,7 +177,7 @@ Modify the script to specify:
 - Box dimensions
 - Class labels
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Path Configuration
 Some scripts contain hardcoded Windows paths (e.g., `D:\\mitacs_blender\\`). You'll need to update these paths to match your local setup before running the scripts.
